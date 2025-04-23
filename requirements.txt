@@ -1,0 +1,11 @@
+# Core dependencies
+# Add your project's Python dependencies here, one per line.
+# Example:
+# requests>=2.20
+# numpy
+python-dotenv  # For loading environment variables (e.g., API keys)
+# Add other core project dependencies here
+
+# Development/Testing dependencies
+pytest
+pytest-json-report # For structured test output used by TestRunner 
