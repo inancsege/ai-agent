@@ -1,7 +1,7 @@
 import pytest
 # Adjust the import based on how you run your tests
 # If running pytest from the root directory ('ai-agent-/'), this should work.
-from src.agent import Agent
+from ai_filtering_comparison.src import Agent
 
 
 def test_agent_initialization():
