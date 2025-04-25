@@ -50,9 +50,9 @@ The AI Test Agent is a sophisticated tool that combines traditional testing fram
 ### Basic Test Running
 
 ```python
-from src.test_runner import TestRunner
-from src.executor import Executor
-from src.llm_interface import LLMInterface
+from ai_filtering_comparison.src import TestRunner
+from ai_filtering_comparison.src import Executor
+from ai_filtering_comparison.src import LLMInterface
 
 # Initialize components
 executor = Executor()
